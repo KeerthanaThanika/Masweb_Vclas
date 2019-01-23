@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <!-- <parameter name="mail" value="Y" />  --> 
+  <test name="LDJIT_TABS">
+  <classes>
+      <class name="com.volvo.mfg.StepDefinition.DriverSuite">
+	         <methods>
+		        <include name="CreateParkingPlace">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="MASWEB_LDJIT" />
+		       </include>  
+		        <include name="CreateTrailerAssignment">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="MASWEB_LDJIT" />
+		       </include> 
+		       <include name="MoveJisjitRacks">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="MASWEB_LDJIT" />
+		       </include> 
+                 <include name="MASWEB_LDJIT_Create_and_Edit_New_Places">
+                <parameter name="Browser" value="IE" />
+                <parameter name="TestName" value="MASWEB_LDJIT" />
+                </include>
+                
+                <include name="MASWEB_LDJIT_Place_Error_Message">
+                            <parameter name="Browser" value="IE" />
+                            <parameter name="TestName" value="MASWEB_LDJIT" />
+                </include> 
+                
+                <include name="MASWEB_LDJIT_Place_Type_Error_Message">
+                            <parameter name="Browser" value="IE" />
+                            <parameter name="TestName" value="MASWEB_LDJIT" />
+                </include>  
+                
+                <include name="MASWEB_LDJIT_Supplier_Error_Message">
+                            <parameter name="Browser" value="IE" />
+                            <parameter name="TestName" value="MASWEB_LDJIT" />
+                </include> 
+                
+                <include name="MASWEB_LDJIT_Flow_Error_Message">
+                            <parameter name="Browser" value="IE" />
+                            <parameter name="TestName" value="MASWEB_LDJIT" />
+                </include> 
+                
+                <include name="MASWEB_LDJIT_Factory_Error_Message">
+                            <parameter name="Browser" value="IE" />
+                            <parameter name="TestName" value="MASWEB_LDJIT" />
+                </include> 
+                
+                <include name="MASWEB_LDJIT_Status_Error_Message">
+                            <parameter name="Browser" value="IE" />
+                            <parameter name="TestName" value="MASWEB_LDJIT" />
+                </include> 
+                
+                <include name="MASWEB_LDJIT_Description_Error_Message">
+                            <parameter name="Browser" value="IE" />
+                            <parameter name="TestName" value="MASWEB_LDJIT" />
+                </include> 
+                
+                <include name="MASWEB_LDJIT_Created_From_Date_Error_Message">
+                            <parameter name="Browser" value="IE" />
+                            <parameter name="TestName" value="MASWEB_LDJIT" />
+                </include> 
+                
+                <include name="MASWEB_LDJIT_Created_To_Date_Error_Message">
+                            <parameter name="Browser" value="IE" />
+                            <parameter name="TestName" value="MASWEB_LDJIT" />
+                </include>
+                
+                <include name="MASWEB_LDJIT_Create_Place">
+                            <parameter name="Browser" value="IE" />
+                            <parameter name="TestName" value="MASWEB_LDJIT" />
+                </include> 
+                
+
+	  	 	      </methods>
+        </class>
+    </classes>
+  </test> 
+  
+  
+</suite> <!-- Suite -->

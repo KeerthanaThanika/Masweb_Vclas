@@ -1,0 +1,125 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 368656 bytes for Chunk::new
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (allocation.cpp:390), pid=13512, tid=0x000000000000318c
+#
+# JRE version:  (8.0_171-b11) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.171-b11 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002273000):  JavaThread "Unknown thread" [_thread_in_vm, id=12684, stack(0x00000000025e0000,0x00000000026e0000)]
+
+Stack: [0x00000000025e0000,0x00000000026e0000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002273000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=12684, stack(0x00000000025e0000,0x00000000026e0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x000000013f0a0000 - 0x000000013f0d7000 	C:\Program Files\Java\jre1.8.0_171\bin\javaw.exe
+0x0000000077780000 - 0x000000007791f000 	C:\windows\SYSTEM32\ntdll.dll
+0x0000000077660000 - 0x000000007777f000 	C:\windows\system32\kernel32.dll
+0x000007fefd610000 - 0x000007fefd67a000 	C:\windows\system32\KERNELBASE.dll
+0x000007fefe800000 - 0x000007fefe8db000 	C:\windows\system32\ADVAPI32.dll
+0x000007fefd960000 - 0x000007fefd9ff000 	C:\windows\system32\msvcrt.dll
+0x000007feff040000 - 0x000007feff05f000 	C:\windows\SYSTEM32\sechost.dll
+0x000007feff940000 - 0x000007feffa6d000 	C:\windows\system32\RPCRT4.dll
+0x0000000077560000 - 0x000000007765a000 	C:\windows\system32\USER32.dll
+0x000007fefe790000 - 0x000007fefe7f7000 	C:\windows\system32\GDI32.dll
+0x000007fefea10000 - 0x000007fefea1e000 	C:\windows\system32\LPK.dll
+0x000007feff530000 - 0x000007feff5fb000 	C:\windows\system32\USP10.dll
+0x000007fefbba0000 - 0x000007fefbd94000 	C:\windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_fa3b1e3d17594757\COMCTL32.dll
+0x000007fefeaa0000 - 0x000007fefeb11000 	C:\windows\system32\SHLWAPI.dll
+0x000007feff600000 - 0x000007feff62e000 	C:\windows\system32\IMM32.DLL
+0x000007feff830000 - 0x000007feff939000 	C:\windows\system32\MSCTF.dll
+0x000007fefd210000 - 0x000007fefd236000 	C:\windows\system32\vmwsci.dll
+0x0000000077920000 - 0x0000000077927000 	C:\windows\system32\PSAPI.DLL
+0x000007feeee40000 - 0x000007feeeeef000 	C:\Program Files\McAfee\Endpoint Security\Threat Prevention\Ips\EpMPApi.dll
+0x000007fefd490000 - 0x000007fefd4cb000 	C:\windows\system32\WINTRUST.dll
+0x000007fefd300000 - 0x000007fefd46d000 	C:\windows\system32\CRYPT32.dll
+0x000007fefd2d0000 - 0x000007fefd2df000 	C:\windows\system32\MSASN1.dll
+0x0000000069ca0000 - 0x0000000069cac000 	C:\Program Files\McAfee\Endpoint Security\Threat Prevention\Ips\EpMPThe.dll
+0x0000000066cb0000 - 0x0000000066d82000 	C:\Program Files\Java\jre1.8.0_171\bin\msvcr100.dll
+0x0000000070690000 - 0x0000000070f30000 	C:\Program Files\Java\jre1.8.0_171\bin\server\jvm.dll
+0x000007fef8750000 - 0x000007fef8759000 	C:\windows\system32\WSOCK32.dll
+0x000007fefe9c0000 - 0x000007fefea0d000 	C:\windows\system32\WS2_32.dll
+0x000007fefefd0000 - 0x000007fefefd8000 	C:\windows\system32\NSI.dll
+0x000007fefb1d0000 - 0x000007fefb20b000 	C:\windows\system32\WINMM.dll
+0x000007fefc600000 - 0x000007fefc60c000 	C:\windows\system32\VERSION.dll
+0x0000000067240000 - 0x000000006724f000 	C:\Program Files\Java\jre1.8.0_171\bin\verify.dll
+0x0000000066ed0000 - 0x0000000066ef9000 	C:\Program Files\Java\jre1.8.0_171\bin\java.dll
+0x0000000066f10000 - 0x0000000066f26000 	C:\Program Files\Java\jre1.8.0_171\bin\zip.dll
+
+VM Arguments:
+jvm_args: -ea -Dfile.encoding=Cp1252 
+java_command: org.testng.remote.RemoteTestNG -serport 58716 -protocol json -d Y:\my desktop\workspace svn\Volvo_MFG_MASweb\test-output Y:\my desktop\workspace svn\Volvo_MFG_MASweb\TestScenarios\V432.xml
+java_class_path (initial): C:\Users\RR\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar;C:\Program Files\Java\jre1.8.0_171\lib\resources.jar;C:\Program Files\Java\jre1.8.0_171\lib\rt.jar;C:\Program Files\Java\jre1.8.0_171\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_171\lib\jce.jar;C:\Program Files\Java\jre1.8.0_171\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_171\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_171\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jre1.8.0_171\lib\ext\cldrdata.jar;C:\Program Files\Java\jre1.8.0_171\lib\ext\dnsns.jar;C:\Program Files\Java\jre1.8.0_171\lib\ext\jaccess.jar;C:\Program Files\Java\jre1.8.0_171\lib\ext\jfxrt.jar;C:\Program Files\Java\jre1.8.0_171\lib\ext\localedata.jar;C:\Program Files\Java\jre1.8.0_171\lib\ext\nashorn.jar;C:\Program Files\Java\jre1.8.0_171\lib\ext\sunec.jar;C:\Program Files\Java\jre1.8.0_171\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jre1.8.0_171\lib\ext\sunmscapi.jar;C:\Program Files\Java\jre1.8.0_171\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jre1.8.0_171\lib\ext\zipfs.jar;Y:\my desktop\workspace svn\Volvo_MFG_MASweb\target\test-classes;Y:\my desktop\workspace svn\Volvo_MFG_MASweb\target\classes;Y:\my desktop\workspace svn\Volvo_MFG_MASweb\jar_Files\jdbc.jar;Y:\my desktop\workspace svn\Volvo_MFG_MASweb\jar_Files\ojdbc6.jar;Y:\my desktop\workspace svn\Volvo_MFG_MASweb\jar_Files\mimer.jar;C:\temp\.m2\repository_something\org\seleniumhq\selenium\selenium-java\3.8.1\selenium-java-3.8.1.jar;C:\temp\.m2\repository_something\org\seleniumhq\selenium\selenium-api\3.8.1\selenium-api-3.8.1.jar;C:\temp\.m2\repository_something\org\seleniumhq\selenium\selenium-chrome-driver\3.8.1\selenium-chrome-driver-3.8.1.jar;C:\temp\.m2\repository_something\org\seleniumhq\selenium\selenium-edge-driver\3.8.1\selenium-edge-driver-3.8.1.jar;C:\temp\.m2\repository_something\org\seleniumhq\selenium\selenium-firefox-driver\3.8.1\selenium-firefox-driver-3.8.1.jar;C:\temp\.m2\repository_
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.8.0_151
+PATH=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\progra~1\Oracle\product\11.2.0\client_1\bin;C:\Program Files (x86)\Oracle\product\11.2.0\client_1\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft Application Virtualization Client;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\CCM;C:\tools\;C:\Program Files\Common Files\ThinPrint\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Users\RR\Desktop\workspace svn\Volvo_MFG_MASweb\browserDrivers;C:\Users\RR\Desktop\workspace svn\Volvo_MFG_MASweb\browserDrivers;C:\Users\RR\apache-maven-3.5.4-bin\bin;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Users\RR\AppData\Roaming\npm
+USERNAME=RR
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 63 Stepping 0, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 (6.1.7601.24308)
+
+CPU:total 2 (initial active 2) (2 cores per cpu, 1 threads per core) family 6 model 63 stepping 0, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, lzcnt, tsc, tscinvbit, bmi1, bmi2
+
+Memory: 4k page, physical 4193848k(107152k free), swap 7363256k(4752k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.171-b11) for windows-amd64 JRE (1.8.0_171-b11), built on Mar 28 2018 16:06:12 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Thu Jan 03 18:22:35 2019
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

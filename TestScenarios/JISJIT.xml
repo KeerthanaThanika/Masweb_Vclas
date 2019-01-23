@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="mail" value="Y" />
+	<test name="JISJIT_FLOW">
+		<classes>
+			<class name="com.volvo.mfg.StepDefinition.DriverSuite">
+				<methods>
+					<include name="JISJIT_TUGGER">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="JISJIT_Scenario_01" />
+					</include>
+					<include name="JISJIT_TUGGER_ASSIGNMENT_DELIVERY">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="JISJIT_Scenario_01" />
+					</include>
+					<include name="JISJIT_TUGGER_SHORTAGE_DELIVERY">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="JISJIT_Scenario_01" />
+					</include>
+					<include name="JISJIT_TUGGER_SHORTAGE_AL_INVALIDINPUT">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="JISJIT_Scenario_01" />
+					</include>
+					<include name="JISJIT_TUGGER_AL_CORRECTSEQ_INVALIDINPUT">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="JISJIT_Scenario_01" />
+					</include>
+					<include name="JISJIT_TUGGER_AL_INCORRECTSEQ_INVALIDINPUT">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="JISJIT_Scenario_01" />
+					</include>
+					<include name="JISJIT_TUGGER_SHORTAGE_CORRECTSEQ_INVALIDINPUT">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="JISJIT_Scenario_01" />
+					</include>
+					<include name="JISJIT_TUGGER_SHORTAGE_INCORRECTSEQ_INVALIDINPUT">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="JISJIT_Scenario_01" />
+					</include>
+					<include name="JISJIT_TUGGER_ALARM_INCONSISTANTDATA">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="JISJIT_Scenario_01" />
+					</include>
+					<include name="JISJIT_TUGGER_SHORTAGE_SORTING">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="JISJIT_Scenario_01" />
+					</include>
+					<include name="JISJIT_TUGGER_AL_SORTING">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="JISJIT_Scenario_01" />
+					</include>
+					<include name="JISJIT_TUGGER_AL_SHORTAGE_COMBO_DELIVERY">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="JISJIT_Scenario_01" />
+					</include>
+					<include name="JISJIT_TUGGER_AL_FIRSTUSER">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="JISJIT_Scenario_01" />
+					</include>
+					<include name="JISJIT_TUGGER_Picking_MultipleAssignments">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="JISJIT_Scenario_01" />
+					</include>
+
+					<include name="JISJIT_TUGGER_Nodes_Paramters_True_Empty_TC_3473_3243">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="JISJIT_Scenario_01" />
+					</include>
+
+					<include name="JISJIT_TUGGER_Nodes_MoveButton_Shortage_TC_3481">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="JISJIT_Scenario_01" />
+					</include>
+
+					<include
+						name="JISJIT_TUGGER_Nodes_MoveButton_AL_ScanOnDelivery_False_Empty_TC_3475_3476">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="JISJIT_Scenario_01" />
+					</include>
+					<include name="JISJIT_TUGGER_Nodes_MovedOrder_Functionality_TC_3465">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="JISJIT_Scenario_01" />
+					</include>
+					<include name="JISJIT_TUGGER_Nodes_MovedOrder_TC_3474">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="JISJIT_Scenario_01" />
+					</include>
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+</suite> <!-- Suite -->

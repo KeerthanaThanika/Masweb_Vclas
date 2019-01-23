@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="PRODUCTION_FLOW">
+  <classes>
+      <class name="com.volvo.mfg.StepDefinition.DriverSuite">
+	      <methods>
+		        <include name="Production_Plockan">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Production_Plockan" />
+		       </include>  
+		        <include name="Production_Consumption">
+			       <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Production_Consumption" />
+		       </include>    
+		       <include name="Production_Controlcodes">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Production_ControlCodes" />
+		       </include> 
+		       <include name="Production_LocationCode">
+			       <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Production_LocationCodes" />
+		       </include>  
+	        </methods>
+        </class>
+    </classes>
+  </test> 
+  
+  
+</suite> <!-- Suite -->

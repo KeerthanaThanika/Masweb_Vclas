@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="112" total="113" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="125519" started-at="2019-01-09T04:51:15Z" finished-at="2019-01-09T04:53:21Z">
+    <groups>
+    </groups>
+    <test name="V432_EndToEnd_Flow" duration-ms="125519" started-at="2019-01-09T04:51:15Z" finished-at="2019-01-09T04:53:21Z">
+      <class name="com.volvo.mfg.StepDefinition.DriverSuite">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@5b87ed94]" name="beforeSuite" is-config="true" duration-ms="6369" started-at="2019-01-09T10:21:09Z" finished-at="2019-01-09T10:21:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@5b87ed94]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-01-09T10:21:15Z" finished-at="2019-01-09T10:21:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@5b87ed94]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-01-09T10:21:15Z" finished-at="2019-01-09T10:21:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[V432_Vclas_PositiveCases]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.volvo.mfg.StepDefinition.DriverSuite.V432_V60_Nodes_Rooms_Configuration(java.lang.String)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@2e185cd7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="V432_V60_Nodes_Rooms_Configuration(java.lang.String)[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@5b87ed94]" name="V432_V60_Nodes_Rooms_Configuration" duration-ms="125438" started-at="2019-01-09T10:21:15Z" description="V432_Nodes_Rooms Configuration" finished-at="2019-01-09T10:23:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[V432_Vclas_PositiveCases]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- V432_V60_Nodes_Rooms_Configuration -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@5b87ed94]" name="afterMethod" is-config="true" duration-ms="16" started-at="2019-01-09T10:23:21Z" finished-at="2019-01-09T10:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@5b87ed94]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-01-09T10:23:21Z" finished-at="2019-01-09T10:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite(java.lang.String)[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@5b87ed94]" name="afterSuite" is-config="true" duration-ms="2188" started-at="2019-01-09T10:23:21Z" finished-at="2019-01-09T10:23:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.volvo.mfg.StepDefinition.DriverSuite -->
+    </test> <!-- V432_EndToEnd_Flow -->
+  </suite> <!-- Suite -->
+</testng-results>

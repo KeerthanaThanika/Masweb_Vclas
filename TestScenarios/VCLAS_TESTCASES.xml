@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!-- <parameter name="mail" value="Y" />  --> 
+  <test name="VCLAS_TESTCASES">
+  <classes>
+      <class name="com.volvo.mfg.StepDefinition.DriverSuite">
+      <methods>
+		       <include name="Vclas_NodesType">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Vclas_TestCases" />
+		       </include>
+	       		 
+	       		 <include name="Vclas_TransportSection">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Vclas_TestCases" />
+		       </include>
+	       
+ 				 <include name="Vclas_ReleaseNotes">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Vclas_TestCases" />
+		       </include> 
+		       
+		       <include name="Vclas_Nodes_MovebuttonVerify">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Vclas_TestCases" />
+		       </include>
+		      
+	       		<include name="Vclas_Adminstration_Tab_Nodes_Functionality">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Vclas_TestCases"/>
+		       </include>
+		       
+		       <include name="Vclas_Adminstration_Tab_Rooms_Functionality">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Vclas_TestCases"/>
+		       </include>
+		       
+		       <include name="Vclas_Adminstration_Tab_Parts_Functionality">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Vclas_TestCases"/>
+		       </include>
+		       
+		       <include name="Vclas_Adminstration_Tab_TAT_Functionality">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Vclas_TestCases"/>
+		       </include>
+		       
+		       <include name="Vclas_Adminstration_Tab_DB_Constant_Functionality">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Vclas_TestCases"/>
+		       </include>
+		       
+		       <include name="Vclas_Adminstration_Tab_User_Functionality">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Vclas_TestCases"/>
+		       </include> 
+		       
+		       <include name="Vclas_Adminstration_Tab_Health_Check_Functionality">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Vclas_TestCases"/>
+		       </include> 
+		       
+		       <include name="Vclas_Adminstration_Tab_Nodes_Screen_Functionality">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Vclas_TestCases"/>
+		       </include>
+		      
+		          <include name="Vclas_Assignments_Functionality">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Vclas_TestCases" />
+		       </include>
+
+		       
+	        </methods>  
+	     </class>
+    </classes>
+  </test> 
+  
+  
+</suite> <!-- Suite -->

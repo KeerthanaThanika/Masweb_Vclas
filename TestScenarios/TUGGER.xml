@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="mail" value="Y" />
+	<test name="TUGGER_FLOW">
+		<classes>
+			<class name="com.volvo.mfg.StepDefinition.DriverSuite">
+				<methods>
+					<include name="TUGGER">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="vclass_01" />
+					</include>
+					<include name="TUGGER_ASSIGNMENT_DELIVERY">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="vclass_01" />
+					</include>
+					<include name="TUGGER_SHORTAGE_DELIVERY">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="vclass_01" />
+					</include>
+					<include name="TUGGER_SHORTAGE_INVALIDINPUT">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="vclass_01" />
+					</include>
+					<include name="TUGGER_ASSIGNMENTLIST_INVALIDINPUT">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="vclass_01" />
+					</include>
+					<include name="TUGGER_SHORTAGE_CORRECTSEQ_INVALIDINPUT">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="vclass_01" />
+					</include>
+					<include name="TUGGER_SHORTAGE_INCORRECTSEQ_INVALIDINPUT">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="vclass_01" />
+					</include>
+					<include name="TUGGER_ASSIGNMENTLIST_INCORRECTSEQ_INVALIDINPUT">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="vclass_01" />
+					</include>
+
+					<include name="TUGGER_AL_SHORTAGE_COMBO_DELIVERY">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="vclass_01" />
+					</include>
+
+					<include name="TUGGER_ALARM_INCONSISTANTDATA">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="vclass_01" />
+					</include>
+					<include name="TUGGER_SHORTAGE_SORTING">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="vclass_01" />
+					</include>
+					<include name="TUGGER_AL_SORTING">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="vclass_01" />
+					</include>
+
+					<include name="TUGGER_AL_FIRSTUSER">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="vclass_01" />
+					</include>
+					<include name="TUGGER_Picking_MultipleAssignments">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="vclass_01" />
+					</include>
+
+					<include name="TUGGER_Nodes_Paramters_True_Empty_TC_3469_3253">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="vclass_01" />
+					</include>
+
+					<include name="TUGGER_Nodes_MoveButton_Shortage_TC_3483">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="vclass_01" />
+					</include>
+
+					<include
+						name="TUGGER_Nodes_MoveButton_AL_ScanOnDelivery_False_Empty_TC_3471_3472">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="vclass_01" />
+					</include>
+					<include name="TUGGER_Nodes_MovedOrder_Functionality_TC_3463">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="vclass_01" />
+					</include>
+					<include name="TUGGER_Nodes_MovedOrder_TC_3470">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="vclass_01" />
+					</include>
+
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

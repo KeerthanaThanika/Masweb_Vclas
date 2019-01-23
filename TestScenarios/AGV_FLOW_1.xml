@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="mail" value="Y" />
+	<test name="AGV_FLOW_1">
+		<classes>
+			<class name="com.volvo.mfg.StepDefinition.DriverSuite">
+				<methods>
+					<include name="AGV_ASSIGNMENTLIST_DELIVERY">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="AGV_Scenario_01" />
+					</include>
+
+					<include name="AGV_RACKCHANGER_INVALID_INPUT">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName"
+							value="AGV_Invalid_Input_Scenario_TestCase ID:2881" />
+					</include>
+
+					<include name="AGV_SHORTAGE_DELIVERY">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="AGV_Shortage_Delivery_TestCase2887" />
+					</include>
+
+					<include name="AGV_INPROGRESS_DELIVERY">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="AGV_Inprogress_Delivery_Testcase2888" />
+					</include>
+
+					<include name="AGV_Inactive_Order_Creation">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName"
+							value="AGV_InativeMID_OrderCreation_Testcase ID:2882" />
+					</include>
+					<include name="AGV_Reserve_Order_Creation">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName"
+							value="AGV_ReserveMID_OrderCreation_Testcase ID:2883" />
+					</include>
+					<!-- <include name="AGV_PlanningStatus_AL_DELIVERY"> <parameter name="Browser" 
+						value="IE" /> <parameter name="TestName" value="AGV_planningStatus_Aldelivery_Testcase 
+						ID:2885"/> </include> <include name="AGV_Picking_Multiple_Assignments_delivery"> 
+						<parameter name="Browser" value="IE" /> <parameter name="TestName" value="AGV_Picking_Multiple_Assignments_TestcaseID:2901"/> 
+						</include> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+</suite> <!-- Suite -->

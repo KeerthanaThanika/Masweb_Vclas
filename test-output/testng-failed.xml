@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="V432_EndToEnd_Flow(failed)">
+    <classes>
+      <class name="com.volvo.mfg.StepDefinition.DriverSuite">
+        <methods>
+          <include name="Deliver_V60_TaskScreen_TestcaseId_3940" invocation-numbers="0">
+            <parameter name="TestName" value="V432_Masweb_PositiveCases"/>
+            <parameter name="Browser" value="IE"/>
+          </include> <!-- Deliver_V60_TaskScreen_TestcaseId_3940 -->
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.volvo.mfg.StepDefinition.DriverSuite -->
+    </classes>
+  </test> <!-- V432_EndToEnd_Flow(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="V432_EndToEnd_Flow">
+  <classes>
+      <class name="com.volvo.mfg.StepDefinition.DriverSuite">
+      <methods>
+		      <!-- <include name="V432_EndToEnd_Flow">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="V432_EndToEnd_Flow"/>
+		       </include> -->
+	         <!-- <include name="Deliver_V60_TaskScreen_TestcaseId_3940">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="V432_Masweb_PositiveCases"/>
+		       </include>
+		    
+		      <include name="V60_packageNote_Print_TestcaseId_3941">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="V432_Masweb_PositiveCases"/>
+		       </include>
+		     
+		        <include name="V60_PackageNote_TestcaseId_3943">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="V432_Masweb_PositiveCases"/>
+		       </include>
+		         <include name="V60_Normal_Repair_Screen_Functionality_TestcaseId_3944">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="V432_Masweb_PositiveCases"/>
+			      
+		       </include>
+		        <include name="V432_Outtakestation_flow">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="V432_Masweb_PositiveCases"/>
+		       </include>
+	    
+	         <include name="V432_CalenderFunction_AllScreens_TestCaseId_3945">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="V432_Masweb_PositiveCases"/>
+		       </include> -->
+                <!-- <include name="V432_MaxNoBodies_Trailer_TC19">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="V432_Masweb_PositiveCases"/>
+		       </include> -->
+             <!-- <include name="V60_Nodes_Up_Down_TC10_11">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="V432_Masweb_PositiveCases"/>
+		       </include> -->
+               <!--              
+                     
+                     <include name="V432_Bodyid_ScanNormal_Repair">
+                           <parameter name="Browser" value="IE" />
+                           <parameter name="TestName" value="V432_Masweb_PositiveCases"/>
+                     </include> -->
+                     
+                    <!--  <include name="V432_Bodyid_ScanRepair_Normal">
+                           <parameter name="Browser" value="IE" />
+                           <parameter name="TestName" value="V432_Masweb_PositiveCases"/>
+                     </include> -->
+                     
+                     <!-- <include name="V432_Reprint_NormalBodyid">
+                           <parameter name="Browser" value="IE" />
+                           <parameter name="TestName" value="V432_Masweb_PositiveCases"/>
+                     </include> -->
+                     
+                    <!--  <include name="V432_Reprint_RepairBodyid">
+                           <parameter name="Browser" value="IE" />
+                           <parameter name="TestName" value="V432_Masweb_PositiveCases"/>
+                     </include> -->
+                     <!-- <include name="V432_V60_Nodes_verification">
+		    	      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="V432_Vclas_PositiveCases"/>
+		       </include> -->
+                 <!-- <include name="V432_V60_Nodes_Authorisation">
+		    	      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="V432_Vclas_PositiveCases"/>
+		       </include> -->
+             <include name="V432_V60_Nodes_Rooms_Configuration">
+		    	      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="V432_Vclas_PositiveCases"/>
+		       </include>
+               <!-- <include name="V432_V60_Nodes_TransportSection_Configuration">
+		    	      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="V432_Vclas_PositiveCases"/>
+		       </include> -->
+		   </methods>  
+	     </class>
+    </classes>
+  </test> 
+  
+  
+</suite> <!-- Suite -->

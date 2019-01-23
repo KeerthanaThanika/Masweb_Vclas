@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="mail" value="Y" />
+	<test name="Trailer_Scenario_01">
+		<classes>
+			<class name="com.volvo.mfg.StepDefinition.DriverSuite">
+				<methods>
+					<include name="LDJIT_TRAILER">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="Trailer_Scenario_01" />
+					</include>
+					<include name="JISJIT_TUGGER_GR">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="Trailer_Scenario_02" />
+					</include>
+					<include name="LDJIT_TRAILER_GR_DbINSERTION">
+						<parameter name="Browser" value="IE" />
+						<parameter name="TestName" value="Trailer_Scenario_01" />
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+</suite> <!-- Suite -->

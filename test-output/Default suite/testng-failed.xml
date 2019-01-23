@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.volvo.mfg.agv.pages.V432">
+        <methods>
+          <include name="ADMIN_MANAGEALARMS"/>
+          <include name="TUGGER_Nodes_MovedOrder_Functionality_TC_3463"/>
+          <include name="afterMethod"/>
+          <include name="V432_EndToEnd_Flow"/>
+          <include name="Vclas_ReleaseNotes"/>
+          <include name="TUGGER_SHORTAGE_DELIVERY"/>
+          <include name="V90_DELIVERV90TASKS"/>
+          <include name="CreateParkingPlace"/>
+          <include name="beforeSuite"/>
+          <include name="ADMIN_MANAGEALARMIDS"/>
+          <include name="MoveJisjitRacks"/>
+          <include name="beforeMethod"/>
+          <include name="CONTROL_PARAMETER"/>
+          <include name="TUGGER"/>
+          <include name="AGV_Inactive_Order_Creation"/>
+          <include name="Vclas_TransportSection"/>
+          <include name="AGV_PlanningStatus_AL_DELIVERY"/>
+          <include name="Vclas_Adminstration_Tab_Health_Check_Functionality"/>
+          <include name="TUGGER_Picking_MultipleAssignments"/>
+          <include name="Production_Controlcodes"/>
+          <include name="Vclas_Adminstration_Tab_DB_Constant_Functionality"/>
+          <include name="Vclas_Adminstration_Tab_Nodes_Functionality"/>
+          <include name="Vclas_NodesType"/>
+          <include name="AGV_Reserve_Order_Creation"/>
+          <include name="Authorisation"/>
+          <include name="ADMIN_SHOWTASK"/>
+          <include name="SIMULATOR"/>
+          <include name="AGV_RACKCHANGER_INVALID_INPUT"/>
+          <include name="TEST_PRINTER"/>
+          <include name="LDJIT_TRAILER"/>
+          <include name="Vclas_Assignments_Functionality"/>
+          <include name="TUGGER_ASSIGNMENT_DELIVERY"/>
+          <include name="Production_LocationCode"/>
+          <include name="JISJIT_OtherUser"/>
+          <include name="Vclas_Adminstration_Tab_Parts_Functionality"/>
+          <include name="ADMIN_SCANNEDGOODS"/>
+          <include name="ReportsTabFunctionality"/>
+          <include name="AGV_ASSIGNMENTLIST_DELIVERY"/>
+          <include name="TUGGER_Nodes_MoveButton_Shortage_TC_3483"/>
+          <include name="JISJIT_TUGGER"/>
+          <include name="V60_RepairStation"/>
+          <include name="Vclas_Adminstration_Tab_User_Functionality"/>
+          <include name="Vclas_Nodes_MovebuttonVerify"/>
+          <include name="AGV_INPROGRESS_DELIVERY"/>
+          <include name="Vclas_Adminstration_Tab_Rooms_Functionality"/>
+          <include name="CreateTrailerAssignment"/>
+          <include name="TUGGER_AL_FIRSTUSER"/>
+          <include name="TUGGER_Nodes_MoveButton_AL_ScanOnDelivery_False_Empty_TC_3471_3472"/>
+          <include name="afterSuite"/>
+          <include name="V60_NormalStation"/>
+          <include name="LDJIT_TRAILER_GR_DbINSERTION"/>
+          <include name="AGV_Picking_Multiple_Assignments_delivery"/>
+          <include name="JISJIT_TUGGER_GR"/>
+          <include name="Production_Plockan"/>
+          <include name="afterTest"/>
+          <include name="JISJIT_TUGGER_DUMMY_ASN"/>
+          <include name="TUGGER_Nodes_MovedOrder_TC_3470"/>
+          <include name="Production_Consumption"/>
+          <include name="TUGGER_Nodes_Paramters_True_Empty_TC_3469_3253"/>
+          <include name="AGV_SHORTAGE_DELIVERY"/>
+          <include name="Vclas_Adminstration_Tab_TAT_Functionality"/>
+          <include name="BLUEBOX"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.volvo.mfg.agv.pages.V432 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

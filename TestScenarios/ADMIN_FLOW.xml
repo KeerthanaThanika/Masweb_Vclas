@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="ADMIN_FLOW">
+  <classes>
+      <class name="com.volvo.mfg.StepDefinition.DriverSuite">
+      <methods>
+		       <include name="ADMIN_SCANNEDGOODS">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Admin_ScannedGoods" />
+		       </include>
+	       
+		      <include name="CONTROL_PARAMETER">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Admin_ControlParameter" />
+		       </include> 
+	        
+		      <include name="TEST_PRINTER">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Admin_TestPrinter" />
+		       </include>
+		        <include name="ADMIN_MANAGEALARMS">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Admin_ManageAlarms" />
+		       </include>
+		       <include name="ADMIN_MANAGEALARMIDS">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Admin_ManageAlarms" />
+		       </include>
+	      
+		      <include name="ADMIN_SHOWTASK">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Admin_ShowTask" />
+		       </include> 
+	        </methods>  
+	     </class>
+    </classes>
+  </test> 
+  
+  
+</suite> <!-- Suite -->
